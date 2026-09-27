@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 import { SiteHeader } from "./SiteHeader";
 import { SiteFooter } from "./SiteFooter";
 import { StickyWhatsApp } from "./StickyWhatsApp";
-import { AskDks } from "@/components/AskDks";
 
 export function SiteShell({ children }: { children: ReactNode }) {
   return (
@@ -13,7 +12,6 @@ export function SiteShell({ children }: { children: ReactNode }) {
       </main>
       <SiteFooter />
       <StickyWhatsApp />
-      <AskDks />
     </div>
   );
 }
