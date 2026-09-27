@@ -10,8 +10,8 @@ export const BRAND = {
   pincode: "122002",
   street: "Golf Course Road",
   addressLine: "Golf Course Road, Gurugram, Haryana 122002",
-  phoneDisplay: "+91 79836 67722",
-  phoneE164: "917983667722",
+  phoneDisplay: "+91 80-77580369",
+  phoneE164: "918077580369",
   hoursEn: "Mon–Sat 10:00–19:00 · Sunday by appointment",
   hoursHi: "सोम–शनि 10:00–19:00 · रविवार अपॉइंटमेंट पर",
   mapsQuery: "Golf Course Road, Gurugram, Haryana 122002",
@@ -25,7 +25,7 @@ export const BRAND = {
   logoSm: "/logo-sm.jpg",
   seoTitle: "Flats & penthouses in Gurugram | Regent Way",
   seoDescription:
-    "Regent Way — a platform for private flats and penthouses in Gurugram. Golf Course Road, DLF Phase 5, Sector 54, Sohna Road. WhatsApp +91 79836 67722.",
+    "Regent Way — a platform for private flats and penthouses in Gurugram. Golf Course Road, DLF Phase 5, Sector 54, Sohna Road. WhatsApp +91 80-77580369.",
   googleQuery: "Regent Way Gurugram flats penthouses",
   googleSearchUrl:
     "https://www.google.com/search?q=Regent+Way+Gurugram+flats+penthouses",
@@ -59,7 +59,7 @@ export function faqJsonLd() {
         name: "Where can I find luxury flats and penthouses in Gurugram?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Regent Way lists private flats and penthouses across Golf Course Road, DLF Phase 5, Sector 54, MG Road and Sohna Road. WhatsApp +91 79836 67722 for a viewing.",
+          text: "Regent Way lists private flats and penthouses across Golf Course Road, DLF Phase 5, Sector 54, MG Road and Sohna Road. WhatsApp +91 80-77580369 for a viewing.",
         },
       },
       {
@@ -67,7 +67,7 @@ export function faqJsonLd() {
         name: "How do I book a viewing with Regent Way?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "WhatsApp +91 79836 67722 from the Regent Way website. Named advisors, one number — no floating brokers.",
+          text: "WhatsApp +91 80-77580369 from the Regent Way website. Named advisors, one number — no floating brokers.",
         },
       },
       {
