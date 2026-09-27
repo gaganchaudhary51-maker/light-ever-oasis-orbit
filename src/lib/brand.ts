@@ -1,7 +1,7 @@
 export const BRAND = {
-  name: "Regent Way",
+  name: "Regentsway",
   shortName: "RW",
-  owner: "Regent Way",
+  owner: "Regentsway",
   tagline: "Flats and penthouses in Gurugram.",
   taglineHi: "गुरुग्राम में फ़्लैट और पेंटहाउस।",
   city: "Gurugram",
@@ -23,12 +23,12 @@ export const BRAND = {
   crmPin: "7722",
   logo: "/logo.png",
   logoSm: "/logo-sm.jpg",
-  seoTitle: "Flats & penthouses in Gurugram | Regent Way",
+  seoTitle: "Flats & penthouses in Gurugram | Regentsway",
   seoDescription:
-    "Regent Way — a platform for private flats and penthouses in Gurugram. Golf Course Road, DLF Phase 5, Sector 54, Sohna Road. WhatsApp +91 80-77580369.",
-  googleQuery: "Regent Way Gurugram flats penthouses",
+    "Regentsway — a platform for private flats and penthouses in Gurugram. Golf Course Road, DLF Phase 5, Sector 54, Sohna Road. WhatsApp +91 80-77580369.",
+  googleQuery: "Regentsway Gurugram flats penthouses",
   googleSearchUrl:
-    "https://www.google.com/search?q=Regent+Way+Gurugram+flats+penthouses",
+    "https://www.google.com/search?q=Regentsway+Gurugram+flats+penthouses",
   googleReviewHint:
     "After Google Business is live, paste the Place ID here to open the star-review form directly.",
   googlePlaceId: "",
@@ -59,23 +59,23 @@ export function faqJsonLd() {
         name: "Where can I find luxury flats and penthouses in Gurugram?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Regent Way lists private flats and penthouses across Golf Course Road, DLF Phase 5, Sector 54, MG Road and Sohna Road. WhatsApp +91 80-77580369 for a viewing.",
+          text: "Regentsway lists private flats and penthouses across Golf Course Road, DLF Phase 5, Sector 54, MG Road and Sohna Road. WhatsApp +91 80-77580369 for a viewing.",
         },
       },
       {
         "@type": "Question",
-        name: "How do I book a viewing with Regent Way?",
+        name: "How do I book a viewing with Regentsway?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "WhatsApp +91 80-77580369 from the Regent Way website. Named advisors, one number — no floating brokers.",
+          text: "WhatsApp +91 80-77580369 from the Regentsway website. Named advisors, one number — no floating brokers.",
         },
       },
       {
         "@type": "Question",
-        name: "Does Regent Way take Google reviews?",
+        name: "Does Regentsway take Google reviews?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes. Scan the Regent Way review QR or search Google for Regent Way Gurugram and leave a star rating after your visit.",
+          text: "Yes. Scan the Regentsway review QR or search Google for Regentsway Gurugram and leave a star rating after your visit.",
         },
       },
     ],
