@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #070706;
+  --color-surface: #11100e;
+  --color-raised: #181613;
+  --color-fg: #f3ead8;
+  --color-muted: #b6a88d;
+  --color-gold: #c9a56a;
+  --color-gold-bright: #e8d5a3;
+  --color-gold-dim: #8a7044;
+  --color-line: #2c271e;
+  --color-line-strong: #4a3f2c;
+  --color-available: #8fbf8a;
+  --color-hold: #d4b46a;
+  --color-sold: #c47a72;
+  --color-danger: #c47a72;
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Outfit", "Segoe UI", system-ui, sans-serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-gold: 0 0 40px color-mix(in oklab, var(--color-gold) 18%, transparent);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 1rem;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-gold) 40%, transparent);
+    color: var(--color-fg);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .hairline {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--color-gold),
+      transparent
+    );
+    opacity: 0.55;
+  }
+
+  .gold-rule {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--color-gold);
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    font-size: 0.68rem;
+    font-weight: 500;
+  }
+
+  .gold-rule::before,
+  .gold-rule::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: color-mix(in oklab, var(--color-gold) 55%, transparent);
+  }
+
+  .marble {
+    background-color: var(--color-bg);
+    background-image:
+      radial-gradient(ellipse at 18% 0%, rgba(201, 165, 106, 0.07), transparent 42%),
+      radial-gradient(ellipse at 88% 12%, rgba(201, 165, 106, 0.05), transparent 38%),
+      linear-gradient(160deg, transparent 40%, rgba(201, 165, 106, 0.03) 50%, transparent 60%);
+  }
+
+  .hero-veil {
+    background: linear-gradient(
+      to top,
+      color-mix(in oklab, var(--color-bg) 96%, transparent) 0%,
+      color-mix(in oklab, var(--color-bg) 35%, transparent) 42%,
+      color-mix(in oklab, var(--color-bg) 45%, transparent) 100%
+    );
+  }
+
+  .preview-ribbon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    font-size: 0.65rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-bg);
+    background: color-mix(in oklab, var(--color-gold) 88%, white);
+    padding: 0.28rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.rdp-root {
+  --rdp-accent-color: var(--color-gold);
+  --rdp-accent-background-color: color-mix(in oklab, var(--color-gold) 22%, transparent);
+  color: var(--color-fg);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: #1a1612;
+  }
+}

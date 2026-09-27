@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cx0BB4qO.js";import{t}from"./brand-DPK6rtfs.js";import{g as n,y as r}from"./index-BTjx3bxg.js";import{t as i}from"./PinGate-BFtWw07L.js";var a=e();function o(){let{t:e}=n();return(0,a.jsx)(i,{sessionKey:`crm`,expected:e=>e===t.crmPin,hint:e(`admin_sub`),title:e(`admin_title`),children:(0,a.jsx)(r,{})})}export{o as component};

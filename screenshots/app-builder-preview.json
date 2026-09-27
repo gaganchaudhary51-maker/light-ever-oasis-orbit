@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Flats & penthouses in Gurugram | Regent Way",
+      "hasCanvas": false,
+      "bodyTextLen": 1271,
+      "bodyTextHash": "42d57260ad6db07677fe64bd9ab3e86e4d305d1785cb7dc6817fd500de39d816",
+      "bodyTextPrefix": "Regent Way GURUGRAM Homes About For Agents Contact EN हिं WhatsA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Flats & penthouses in Gurugram | Regent Way",
+      "hasCanvas": false,
+      "bodyTextLen": 1178,
+      "bodyTextHash": "0ae26b0afb279446c842f58660ed8d0429f9a7b5b57c62caf0af66e0a742d224",
+      "bodyTextPrefix": "Regent Way GURUGRAM EN हिं GURUGRAM · FLATS & PENTHOUSES Flats a",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

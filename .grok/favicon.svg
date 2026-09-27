@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Regent Way">
+  <rect width="32" height="32" fill="#070706"/>
+  <rect x="6" y="5" width="6.2" height="20" fill="#c9a56a"/>
+  <path fill="#c9a56a" d="M12.2 5 h9.4 c4.4 0 7.2 3.2 7.2 7.2 0 4-2.8 7.2-7.2 7.2 H12.2 Z"/>
+  <path fill="#070706" d="M12.2 8.3 h7.2 c2.8 0 4.6 1.7 4.6 3.9 0 2.2-1.8 3.9-4.6 3.9 H12.2 Z"/>
+  <polygon fill="#c9a56a" points="13.4,19.4 20.4,19.4 27.4,25 20,25"/>
+  <rect x="8" y="26.4" width="16" height="2.2" fill="#c9a56a"/>
+</svg>

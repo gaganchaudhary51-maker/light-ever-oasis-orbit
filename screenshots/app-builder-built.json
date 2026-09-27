@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Luxury homes in Aligarh | DKS Residences | DK Singh",
+      "hasCanvas": false,
+      "bodyTextLen": 1343,
+      "bodyTextHash": "301900b4ed8c3d9d4e5eb6fa6fe7d497ee536a1ea615dbe97dc639310b90ab01",
+      "bodyTextPrefix": "DKS Residences ALIGARH Homes About DK Singh For Agents Contact E",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Luxury homes in Aligarh | DKS Residences | DK Singh",
+      "hasCanvas": false,
+      "bodyTextLen": 1277,
+      "bodyTextHash": "0d47ff314e843c49ef0985ada58145edb0fbe62210b880cb029ae69da579cd1d",
+      "bodyTextPrefix": "DKS Residences EN हिं ALIGARH · OWNER-BUILT Built with Trust. Li",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: canvas disappeared"
+  ]
+}
